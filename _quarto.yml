@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "mysite"
   navbar:
@@ -8,7 +8,6 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-
 format:
   html:
     theme:
@@ -16,6 +15,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
